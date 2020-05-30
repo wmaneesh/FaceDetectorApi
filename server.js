@@ -27,7 +27,7 @@ app.use(cors());
 
 //for home page
 app.get("/", (req, res) => {
-  res.send(database.users);
+  res.send("it is working");
 });
 
 //post request for the sign in page
